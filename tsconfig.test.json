@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "lib": ["ES2024", "DOM", "DOM.Iterable"],
+    "jsx": "react-jsx",
+    "types": ["vite/client", "node", "vitest/globals"],
+    "outDir": ".typecheck/test",
+    "tsBuildInfoFile": ".typecheck/test.tsbuildinfo"
+  },
+  "include": [
+    "src/domain/**/*.ts",
+    "src/test-support/**/*.ts",
+    "tests/**/*.ts",
+    "tests/**/*.tsx"
+  ]
+}

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">OrthoVerba</title>
+  <desc id="desc">A gold eye crossed by a voice waveform on an ink background.</desc>
+  <defs>
+    <linearGradient id="frame" x1="70" y1="52" x2="448" y2="470" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#182331"/>
+      <stop offset="1" stop-color="#080b10"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="102" y1="147" x2="420" y2="365" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffe198"/>
+      <stop offset=".48" stop-color="#f1b94b"/>
+      <stop offset="1" stop-color="#ca8b22"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="9" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="16" y="16" width="480" height="480" rx="112" fill="url(#frame)" stroke="#2d3a49" stroke-width="8"/>
+  <path d="M72 258c47-86 111-129 184-129s137 43 184 129c-47 84-111 126-184 126S119 342 72 258Z" fill="none" stroke="url(#gold)" stroke-width="24" stroke-linejoin="round"/>
+  <circle cx="256" cy="257" r="86" fill="none" stroke="#5b421b" stroke-width="12"/>
+  <path d="M80 258h88l25-50 30 113 35-158 35 190 31-130 24 35h84" fill="none" stroke="#f8c85f" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+  <circle cx="256" cy="257" r="13" fill="#fff1bd"/>
+</svg>

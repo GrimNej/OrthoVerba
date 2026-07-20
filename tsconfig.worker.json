@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "lib": ["ES2024", "WebWorker"],
+    "types": [],
+    "outDir": ".typecheck/worker",
+    "tsBuildInfoFile": ".typecheck/worker.tsbuildinfo"
+  },
+  "include": [
+    "src/workers/**/*.ts",
+    "src/domain/**/*.ts",
+    "src/infrastructure/tracking/worker-protocol.ts"
+  ]
+}

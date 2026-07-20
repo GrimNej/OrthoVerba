@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.typecheck/
+artifacts/
+.wrangler/
+output/
+.dev.vars
+.dev.vars.*
+.env
+.env.*
+!.dev.vars.example
+!.env.example
+ORTHOVERBA_V2_COMPLETE_IMPLEMENTATION_BLUEPRINT.md
+.DS_Store

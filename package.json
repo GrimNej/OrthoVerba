@@ -1,0 +1,43 @@
+{
+  "name": "orthoverba",
+  "version": "2.0.0",
+  "description": "A private, browser-only reader that follows your voice through a known script.",
+  "private": true,
+  "license": "MIT",
+  "author": "Ginej Neupane",
+  "homepage": "https://orthoverba.grimnej.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GrimNej/OrthoVerba.git"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run typecheck && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4173",
+    "typecheck": "tsc -b --pretty false --stopBuildOnErrors",
+    "typecheck:clean": "tsc -b --clean",
+    "test": "node scripts/smoke-tests.mjs",
+    "check:privacy": "node scripts/verify-ephemeral-privacy.mjs",
+    "check:placeholders": "node scripts/verify-no-placeholders.mjs",
+    "doctor": "node scripts/doctor.mjs",
+    "ci": "npm run doctor && npm run typecheck:clean && npm run typecheck && npm run test && npm run check:privacy && npm run check:placeholders && npm run build",
+    "deploy": "npm run build && wrangler pages deploy dist --project-name orthoverba --branch main"
+  },
+  "dependencies": {
+    "idb": "8.0.3",
+    "react": "19.2.7",
+    "react-dom": "19.2.7"
+  },
+  "devDependencies": {
+    "@types/node": "24.10.9",
+    "@types/react": "19.2.17",
+    "@types/react-dom": "19.2.3",
+    "typescript": "6.0.3",
+    "vite": "8.1.5",
+    "wrangler": "4.112.0"
+  },
+  "engines": {
+    "node": ">=22.12.0 <25"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "OrthoVerba",
+  "short_name": "OrthoVerba",
+  "id": "/",
+  "description": "A private browser-only reader that follows your voice through a known script.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0d1117",
+  "theme_color": "#0d1117",
+  "categories": ["productivity", "accessibility", "education"],
+  "icons": [
+    { "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

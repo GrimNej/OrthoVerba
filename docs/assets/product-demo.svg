@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 540" role="img" aria-labelledby="title desc">
+  <title id="title">OrthoVerba product preview</title><desc id="desc">An animated preview of a script moving through committed, stable, and current reading states.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="540" gradientUnits="userSpaceOnUse"><stop stop-color="#080b10"/><stop offset="1" stop-color="#101721"/></linearGradient>
+    <linearGradient id="meter" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#70d89b"/><stop offset=".7" stop-color="#f1b94b"/><stop offset="1" stop-color="#ff6677"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-30%" width="150%" height="170%"><feDropShadow dy="18" stdDeviation="22" flood-opacity=".5"/></filter>
+    <style>
+      .sans{font-family:Inter,Arial,sans-serif}.mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
+      .word{fill:#677483}.past{animation:past 8s steps(1) infinite}.now1{animation:n1 8s steps(1) infinite}.now2{animation:n2 8s steps(1) infinite}.now3{animation:n3 8s steps(1) infinite}.meter{animation:meter 2.2s ease-in-out infinite;transform-origin:left}.dot{animation:pulse 1.6s ease-in-out infinite}
+      @keyframes past{0%,24%{fill:#a9b3be}25%,100%{fill:#7d8996}}@keyframes n1{0%,24%{fill:#ffd77e}25%,100%{fill:#a9b3be}}@keyframes n2{0%,24%{fill:#677483}25%,49%{fill:#ffd77e}50%,100%{fill:#a9b3be}}@keyframes n3{0%,49%{fill:#677483}50%,74%{fill:#ffd77e}75%,100%{fill:#a9b3be}}@keyframes meter{50%{transform:scaleX(.38)}}@keyframes pulse{50%{opacity:.45}}
+      @media(prefers-reduced-motion:reduce){*{animation:none!important}.now1{fill:#ffd77e}}
+    </style>
+  </defs>
+  <rect width="1280" height="540" rx="24" fill="url(#bg)"/><rect x="1" y="1" width="1278" height="538" rx="23" fill="none" stroke="#fff" stroke-opacity=".12" stroke-width="2"/>
+  <g filter="url(#shadow)">
+    <rect x="36" y="34" width="1208" height="472" rx="18" fill="#090d12" stroke="#2b3745"/>
+    <rect x="36" y="34" width="1208" height="64" rx="18" fill="#0d1219"/><path d="M36 98h1208" stroke="#24303c"/>
+    <g transform="translate(58 46)"><rect width="40" height="40" rx="11" fill="#171f29" stroke="#344151"/><path d="M6 21c4-7 9-11 14-11s10 4 14 11c-4 7-9 10-14 10S10 28 6 21Z" fill="none" stroke="#f1b94b" stroke-width="2"/><path d="M7 21h6l2-5 3 11 3-15 3 18 3-12 2 3h5" fill="none" stroke="#ffd77e" stroke-width="1.7"/></g>
+    <text x="112" y="65" class="mono" fill="#8493a4" font-size="8" letter-spacing="1.4">PRIVATE VOICE-FOLLOWING READER</text><text x="112" y="84" class="sans" fill="#e6edf3" font-size="18" font-weight="750">OrthoVerba</text>
+    <rect x="1017" y="52" width="202" height="30" rx="15" fill="#111821" stroke="#314050"/><circle cx="1035" cy="67" r="4" fill="#70d89b" class="dot"/><text x="1047" y="71" class="sans" fill="#b8c4d1" font-size="10">Temporary - not saved</text>
+    <rect x="36" y="98" width="324" height="408" fill="#0d1219"/><path d="M360 98v408" stroke="#202a36"/>
+    <text x="58" y="132" class="sans" fill="#c9d4df" font-size="11" font-weight="700">YOUR SCRIPT</text>
+    <rect x="58" y="146" width="280" height="121" rx="10" fill="#090e14" stroke="#2b3745"/>
+    <text x="73" y="174" class="sans" fill="#aab6c2" font-size="12">A better reading rhythm begins</text><text x="73" y="195" class="sans" fill="#aab6c2" font-size="12">when the words move at your pace</text><text x="73" y="216" class="sans" fill="#aab6c2" font-size="12">instead of asking you to chase.</text>
+    <rect x="58" y="282" width="134" height="38" rx="8" fill="#19222d" stroke="#344354"/><text x="125" y="306" class="sans" fill="#e5edf5" font-size="11" font-weight="700" text-anchor="middle">Prepare Script</text>
+    <rect x="204" y="282" width="134" height="38" rx="8" fill="#f1b94b"/><text x="271" y="306" class="sans" fill="#18120a" font-size="11" font-weight="750" text-anchor="middle">Start Listening</text>
+    <rect x="58" y="337" width="280" height="69" rx="10" fill="#111821" stroke="#283543"/><circle cx="77" cy="357" r="5" fill="#58d68d" class="dot"/><text x="91" y="360" class="sans" fill="#e6edf3" font-size="10" font-weight="700">Following your voice</text><text x="75" y="383" class="sans" fill="#8493a4" font-size="9">Position established with high confidence.</text>
+    <text x="58" y="432" class="mono" fill="#79889a" font-size="8">PROGRESS</text><text x="58" y="454" class="sans" fill="#e6edf3" font-size="18" font-weight="700">67%</text>
+    <rect x="119" y="441" width="219" height="8" rx="4" fill="#1c2631"/><rect x="119" y="441" width="168" height="8" rx="4" fill="url(#meter)" class="meter"/>
+    <rect x="360" y="98" width="884" height="408" fill="#090d12"/>
+    <rect x="360" y="236" width="884" height="112" fill="#f1b94b" fill-opacity=".025"/><path d="M360 236h884M360 348h884" stroke="#f1b94b" stroke-opacity=".12"/>
+    <text x="432" y="193" class="sans word past" font-size="31" font-weight="560">A better reading rhythm begins when the</text>
+    <text x="432" y="263" class="sans word past" font-size="31" font-weight="560">words move at</text>
+    <rect x="658" y="230" width="86" height="43" rx="7" fill="#f1b94b" fill-opacity=".19"/>
+    <text x="670" y="263" class="sans now1" fill="#ffd77e" font-size="31" font-weight="650">your</text>
+    <text x="753" y="263" class="sans now2" fill="#677483" font-size="31" font-weight="650">pace</text>
+    <text x="832" y="263" class="sans now3" fill="#677483" font-size="31" font-weight="650">instead</text>
+    <text x="432" y="333" class="sans word" font-size="31" font-weight="560">of asking you to chase the page.</text>
+    <text x="432" y="415" class="mono" fill="#748292" font-size="9" letter-spacing="1.1">CLICK ANY WORD TO RE-ANCHOR MANUALLY</text>
+    <text x="432" y="456" class="sans" fill="#667483" font-size="13">Committed</text><circle cx="512" cy="452" r="4" fill="#a9b3be"/><text x="533" y="456" class="sans" fill="#667483" font-size="13">Current</text><circle cx="591" cy="452" r="4" fill="#f1b94b"/>
+  </g>
+</svg>

@@ -1,0 +1,3 @@
+This is a deterministic OrthoVerba fixture.
+
+The reader may pause, repeat a phrase, skip a sentence, or continue naturally.

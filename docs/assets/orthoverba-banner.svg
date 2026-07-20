@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 440" role="img" aria-labelledby="title desc">
+  <title id="title">OrthoVerba voice-following reader</title>
+  <desc id="desc">A cinematic dark banner with a gold voice waveform moving through a reading interface.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="440" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#080b10"/><stop offset=".55" stop-color="#0d131b"/><stop offset="1" stop-color="#111923"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="57" y1="0" x2="1190" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ca8b22"/><stop offset=".45" stop-color="#f1b94b"/><stop offset=".7" stop-color="#ffe198"/><stop offset="1" stop-color="#70d89b"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientTransform="translate(963 218) rotate(90) scale(220 350)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f1b94b" stop-opacity=".16"/><stop offset="1" stop-color="#f1b94b" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0v32" fill="none" stroke="#fff" stroke-opacity=".035"/></pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="shadow" x="-20%" y="-30%" width="150%" height="170%"><feDropShadow dy="22" stdDeviation="22" flood-opacity=".55"/></filter>
+    <style>
+      .sans{font-family:Inter,Arial,sans-serif}.mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
+      .wave{stroke-dasharray:10 12;animation:dash 12s linear infinite}.float{animation:float 7s ease-in-out infinite}.pulse{animation:pulse 2.5s ease-out infinite;transform-box:fill-box;transform-origin:center}
+      @keyframes dash{to{stroke-dashoffset:-220}}@keyframes float{50%{transform:translateY(-8px)}}@keyframes pulse{0%,25%{opacity:.7;transform:scale(.45)}85%,100%{opacity:0;transform:scale(1.55)}}
+      @media(prefers-reduced-motion:reduce){*{animation:none!important}}
+    </style>
+  </defs>
+  <rect width="1280" height="440" rx="28" fill="url(#bg)"/><rect x="1" y="1" width="1278" height="438" rx="27" fill="none" stroke="#fff" stroke-opacity=".13" stroke-width="2"/>
+  <rect x="640" width="640" height="440" fill="url(#grid)"/><rect x="640" width="640" height="440" fill="url(#halo)"/>
+  <g transform="translate(64 52)">
+    <rect width="60" height="60" rx="17" fill="#111923" stroke="#344354"/>
+    <path d="M9 31c6-11 13-16 21-16s15 5 21 16c-6 10-13 15-21 15S15 41 9 31Z" fill="none" stroke="#f1b94b" stroke-width="3"/>
+    <path d="M11 31h9l3-7 4 15 4-20 4 23 4-15 3 4h8" fill="none" stroke="#ffd77e" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="141" y="81" class="sans" fill="#f3f6f9" font-size="26" font-weight="750" letter-spacing="-1">ORTHOVERBA</text>
+  <text x="141" y="101" class="mono" fill="#8392a3" font-size="8" letter-spacing="1.7">VOICE-FOLLOWING READER / V2</text>
+  <text x="64" y="188" class="sans" fill="#f3f6f9" font-size="50" font-weight="700" letter-spacing="-2.5">Your script follows</text>
+  <text x="64" y="245" class="sans" fill="#f1b94b" font-size="50" font-weight="700" letter-spacing="-2.5">your voice.</text>
+  <text x="66" y="292" class="sans" fill="#93a1b1" font-size="16">Read naturally. Keep your place. Stay in the flow.</text>
+  <g class="mono" font-size="8" letter-spacing="1">
+    <circle cx="70" cy="354" r="4" fill="#70d89b"/><text x="82" y="358" fill="#9aa8b7">PRIVATE BY DEFAULT</text>
+    <circle cx="242" cy="354" r="4" fill="#f1b94b"/><text x="254" y="358" fill="#9aa8b7">NO ACCOUNT</text>
+    <circle cx="372" cy="354" r="4" fill="#ffd77e"/><text x="384" y="358" fill="#9aa8b7">BROWSER ONLY</text>
+  </g>
+  <g filter="url(#shadow)" class="float">
+    <rect x="715" y="67" width="498" height="307" rx="20" fill="#090d12" stroke="#314050"/>
+    <rect x="715" y="67" width="498" height="50" rx="20" fill="#0d1219"/><path d="M715 117h498" stroke="#273342"/>
+    <circle cx="742" cy="92" r="5" fill="#70d89b"/><text x="757" y="96" class="mono" fill="#8d9bab" font-size="8" letter-spacing="1">LISTENING / POSITION ESTABLISHED</text>
+    <rect x="744" y="139" width="440" height="205" rx="13" fill="#0b1016" stroke="#212c38"/>
+    <rect x="744" y="212" width="440" height="72" fill="#f1b94b" fill-opacity=".035"/><path d="M744 212h440M744 284h440" stroke="#f1b94b" stroke-opacity=".12"/>
+    <g class="sans" font-size="26" font-weight="560">
+      <text x="777" y="197" fill="#667382">A better reading rhythm begins</text>
+      <text x="777" y="242" fill="#aab5c0">when the words move at</text>
+      <rect x="1005" y="214" width="101" height="38" rx="7" fill="#f1b94b" fill-opacity=".2" stroke="#f1b94b" stroke-opacity=".25"/>
+      <text x="1016" y="242" fill="#ffe6a7">your pace</text>
+      <text x="777" y="287" fill="#5c6875">instead of asking you to chase.</text>
+    </g>
+    <path id="bannerWave" d="M762 326c20 0 20-14 40-14s20 24 40 24 20-47 40-47 20 69 40 69 20-58 40-58 20 31 40 31 20-12 40-12 20 7 40 7 20-2 40-2" fill="none" stroke="url(#gold)" stroke-width="2" class="wave" filter="url(#glow)"/>
+    <circle r="5" fill="#fff1bd" filter="url(#glow)"><animateMotion dur="5s" repeatCount="indefinite"><mpath href="#bannerWave"/></animateMotion></circle>
+  </g>
+  <circle cx="1106" cy="214" r="18" fill="none" stroke="#f1b94b" stroke-opacity=".28" class="pulse"/>
+</svg>

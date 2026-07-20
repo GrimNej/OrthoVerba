@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">OrthoVerba logo</title><desc id="desc">A gold eye crossed by an animated voice waveform.</desc>
+  <defs>
+    <linearGradient id="frame" x1="25" y1="17" x2="231" y2="241" gradientUnits="userSpaceOnUse"><stop stop-color="#182331"/><stop offset="1" stop-color="#080b10"/></linearGradient>
+    <linearGradient id="gold" x1="42" y1="70" x2="218" y2="188" gradientUnits="userSpaceOnUse"><stop stop-color="#ffe198"/><stop offset=".52" stop-color="#f1b94b"/><stop offset="1" stop-color="#ca8b22"/></linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>.trace{stroke-dasharray:260;stroke-dashoffset:260;animation:draw 3.6s ease-in-out infinite}.iris{animation:blink 4.8s ease-in-out infinite;transform-origin:128px 128px}@keyframes draw{35%,70%{stroke-dashoffset:0}100%{stroke-dashoffset:-260}}@keyframes blink{0%,42%,48%,100%{transform:scaleY(1)}45%{transform:scaleY(.08)}}@media(prefers-reduced-motion:reduce){*{animation:none!important}.trace{stroke-dashoffset:0}}</style>
+  </defs>
+  <rect x="10" y="10" width="236" height="236" rx="58" fill="url(#frame)" stroke="#344354" stroke-width="2"/>
+  <g class="iris"><path d="M35 129c25-45 56-68 93-68s68 23 93 68c-25 44-56 66-93 66s-68-22-93-66Z" fill="none" stroke="url(#gold)" stroke-width="10" stroke-linejoin="round"/><circle cx="128" cy="129" r="38" fill="none" stroke="#62491e" stroke-width="6"/></g>
+  <path d="M38 129h43l12-25 15 57 18-82 18 98 16-65 13 17h45" fill="none" stroke="#f6c557" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" class="trace" filter="url(#glow)"/>
+  <circle cx="128" cy="129" r="6" fill="#fff1bd"/>
+</svg>
