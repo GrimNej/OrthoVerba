@@ -132,7 +132,7 @@ decisions/                Lightweight architecture decision records
 
 ### Prerequisites
 
-- Node.js `22.12+` (Node `24.14.0` is pinned in `.nvmrc`)
+- Node.js `22.12+` (Node `22.23.1` LTS is pinned in `.nvmrc`)
 - npm `11+`
 - Chrome or Edge for the voice-tracking path
 

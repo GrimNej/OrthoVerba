@@ -4,6 +4,7 @@ dist/
 artifacts/
 .wrangler/
 output/
+.playwright-cli/
 .dev.vars
 .dev.vars.*
 .env

@@ -44,12 +44,12 @@
     <circle cx="742" cy="92" r="5" fill="#70d89b"/><text x="757" y="96" class="mono" fill="#8d9bab" font-size="8" letter-spacing="1">LISTENING / POSITION ESTABLISHED</text>
     <rect x="744" y="139" width="440" height="205" rx="13" fill="#0b1016" stroke="#212c38"/>
     <rect x="744" y="212" width="440" height="72" fill="#f1b94b" fill-opacity=".035"/><path d="M744 212h440M744 284h440" stroke="#f1b94b" stroke-opacity=".12"/>
-    <g class="sans" font-size="26" font-weight="560">
-      <text x="777" y="197" fill="#667382">A better reading rhythm begins</text>
-      <text x="777" y="242" fill="#aab5c0">when the words move at</text>
-      <rect x="1005" y="214" width="101" height="38" rx="7" fill="#f1b94b" fill-opacity=".2" stroke="#f1b94b" stroke-opacity=".25"/>
-      <text x="1016" y="242" fill="#ffe6a7">your pace</text>
-      <text x="777" y="287" fill="#5c6875">instead of asking you to chase.</text>
+    <g class="sans" font-size="22" font-weight="560">
+      <text x="777" y="190" fill="#667382">A better reading rhythm begins</text>
+      <text x="777" y="238" fill="#aab5c0">when the words move</text>
+      <rect x="1008" y="207" width="170" height="40" rx="7" fill="#f1b94b" fill-opacity=".2" stroke="#f1b94b" stroke-opacity=".25"/>
+      <text x="1020" y="237" fill="#ffe6a7">at your pace</text>
+      <text x="777" y="284" fill="#5c6875">instead of asking you to chase.</text>
     </g>
     <path id="bannerWave" d="M762 326c20 0 20-14 40-14s20 24 40 24 20-47 40-47 20 69 40 69 20-58 40-58 20 31 40 31 20-12 40-12 20 7 40 7 20-2 40-2" fill="none" stroke="url(#gold)" stroke-width="2" class="wave" filter="url(#glow)"/>
     <circle r="5" fill="#fff1bd" filter="url(#glow)"><animateMotion dur="5s" repeatCount="indefinite"><mpath href="#bannerWave"/></animateMotion></circle>
