@@ -163,7 +163,7 @@ The app builds to static files and does not need a VPS, container, database, or 
 npm run deploy
 ```
 
-That command validates and builds the project, then uploads `dist/` to the `orthoverba` Cloudflare Pages project with Wrangler. Production is available at [orthoverba.grimnej.com](https://orthoverba.grimnej.com), with the generated `*.pages.dev` address retained as a fallback.
+That command validates and builds the project, then uploads `dist/` to Cloudflare's static-assets Worker with Wrangler. The Worker custom domain creates the DNS record and manages TLS without a VPS or separate origin server. Production is available at [orthoverba.grimnej.com](https://orthoverba.grimnej.com), with [orthoverba.pages.dev](https://orthoverba.pages.dev) retained as a fallback deployment.
 
 ## Browser support
 

@@ -22,7 +22,7 @@
     "check:placeholders": "node scripts/verify-no-placeholders.mjs",
     "doctor": "node scripts/doctor.mjs",
     "ci": "npm run doctor && npm run typecheck:clean && npm run typecheck && npm run test && npm run check:privacy && npm run check:placeholders && npm run build",
-    "deploy": "npm run build && wrangler pages deploy dist --project-name orthoverba --branch main"
+    "deploy": "npm run build && wrangler deploy"
   },
   "dependencies": {
     "idb": "8.0.3",
